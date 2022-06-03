@@ -13,7 +13,7 @@ function App(){
         <>
        <nav id="nav">
         <img src="https://purepng.com/public/uploads/large/purepng.com-pokeballpokeballdevicepokemon-ballpokemon-capture-ball-17015278258769okdi.png" width="100px"/>
-       <a href="https://ruzell11.github.io/pokedex/"><h3>Go to PokeDex</h3></a> 
+       <a href="https://ruzell11.github.io/pokemon-card-generator/"><h3>Go to PokeDex</h3></a> 
 
     </nav>
         <Component />
