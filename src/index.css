@@ -1,13 +1,140 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background:linear-gradient(to right , lightgreen , green , lightgreen);
+
+    
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    
+    
+}
+
+.left-content , .right-content{
+    flex-basis: 50%;
+    
+    
+    
+}
+.left-content {
+    grid-template-columns: repeat(auto-fit,minmax(200px , 0.5fr));
+    grid-gap: 2rem;
+    display: grid;
+    
+}
+
+.card{
+    width: 300px;
+    background-color: #9edef9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.picture{
+    width: 100px;
+    
+}
+.right-content{
+    width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+
+}
+
+.right-content img{
+    margin:2rem;
+    height:290px;
+
+}
+
+.right-content h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 45px;
+}
+
+.abilities{
+    width: 50%;
+
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.abilities .group{
+    background-color: red;
+    color: white;
+    padding: .5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin: 20px;
+    width: 100%;
+}
+
+.base-stat{
+    margin-top: 2rem;
+
+}
+
+.btn-group{
+    display: flex;
+   
+
+}
+
+.btn-group button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: .3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    background:linear-gradient(to right ,
+    white 0% ,
+    white 50% ,
+    red 50% ,
+    red 100% );
+    border-radius: 50%;
+    height: 100px;
+
+}
+.card h2{
+    text-transform: capitalize;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: .2s ease;
+
+}
+
+.title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
 }
