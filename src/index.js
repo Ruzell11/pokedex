@@ -11,7 +11,11 @@ import Component from './components.js'
 function App(){
     return(
         <>
-        <h1 className='title'>Pokemon Index</h1>
+       <nav id="nav">
+        <img src="https://purepng.com/public/uploads/large/purepng.com-pokeballpokeballdevicepokemon-ballpokemon-capture-ball-17015278258769okdi.png" width="100px"/>
+       <a href="https://ruzell11.github.io/pokedex/"><h3>Go to PokeDex</h3></a> 
+
+    </nav>
         <Component />
         </>
         
